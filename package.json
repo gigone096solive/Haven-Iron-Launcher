@@ -1,12 +1,12 @@
 {
-  "name": "Uzurion-Launcher",
+  "name": "Haven-Iron-Launcher",
   "version": "2.0.4",
-  "productName": "Uzurion Launcher",
-  "description": "Uzurion Launcher",
+  "productName": "HavenIron Launcher",
+  "description": "HavenIron Launcher",
   "main": "app/index.html",
   "author": "Luuxis",
   "window": {
-    "title": "Uzurion update",
+    "title": "Haven Iron update",
     "width": 400,
     "height": 500,
     "frame": false,
@@ -30,7 +30,7 @@
   },
   "license": "CC0",
   "build": {
-    "appId": "Uzurion Launcher",
+    "appId": "Haven Iron Launcher",
     "nwVersion": "0.55.0",
     "packed": true,
     "targets": [
@@ -52,16 +52,16 @@
     ],
     "outputPattern": "${NAME}-${PLATFORM}",
     "win": {
-      "productName": "Uzurion Launcher",
-      "companyName": "Uzurion Launcher",
+      "productName": "Haven Iron Launcher",
+      "companyName": "Haven Iron Launcher",
       "copyright": "copyright",
       "icon": "./app/assets/images/icons/icon.ico"
     },
     "mac": {
-      "displayName": "Uzurion-Launcher",
+      "displayName": "Haven-Iron-Launcher",
       "copyright": "copyright",
       "plistStrings": {
-        "CFBundleIdentifier": "Uzurion-Launcher"
+        "CFBundleIdentifier": "Haven-Iron-Launcher"
       }
     },
     "nsis": {
@@ -74,7 +74,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luuxis/Uzurion-Launcher.git"
+    "url": "git+https://github.com/gigone096solive/Haven-Iron-Launcher.git"
   },
   "dependencies": {
     "minecraft-java-core": "^1.1.5-alpha.3",
